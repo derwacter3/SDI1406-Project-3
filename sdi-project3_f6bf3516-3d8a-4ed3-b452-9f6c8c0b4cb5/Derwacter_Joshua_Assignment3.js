@@ -13,6 +13,16 @@ var basketballGame = false,
 		ubwear: "", // upper body wear
 		lbwear: "", // lower body wear
 	},
+	basketballCharacter = function () {
+		// Local Variables
+		var playerStats = false,
+				playerInsideShooting = 0,
+				playerOutsideShooting = 0,
+				playerDribbling = 0,
+				playerPassing = 0,
+				playerData = {};
+				
+	basketballPlayer.name = prompt("Enter players name.");
 
 var JSON = {
 	"Positions": {
